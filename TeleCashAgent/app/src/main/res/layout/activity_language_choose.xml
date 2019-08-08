@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LanguageChooseActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:isScrollContainer="true">
+        <ImageView
+            android:id="@+id/tele_cash_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:src="@drawable/telecash_screen_logo"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:maxHeight="100dp" />
+        <TextView
+            android:id="@+id/txt_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tele_cash_logo"
+            android:text="@string/choose_language"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_r"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/language_chn_radioGroup"
+            android:gravity="center">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bangla"
+                android:text="@string/txt_bangla"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:layout_marginEnd="50dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/english"
+                android:text="@string/txt_english"
+                android:checked="true"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"/>
+        </RadioGroup>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_save_language"
+            android:text="@string/txt_save"
+            android:textAllCaps="false"
+            android:background="@color/btn_color"
+            android:layout_below="@+id/language_chn_radioGroup"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <ImageView
+            android:id="@+id/tele_cash_moto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:src="@drawable/telecash_moto"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:maxWidth="200dp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_language">ভাষা নির্বাচন করুন</string>
+    <string name="txt_save">সংরক্ষন</string>
+    <string name="txt_login">লগইন</string>
+    <string name="tk_symbol">টাকা</string>
+    <string name="tk_balance">ব্যালেন্স</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="otp_hint_txt">এই নাম্বারে +৮৮০১৭৯৯১২৩৪৫৬ দয়া করে পাঠানো কোডটি  লিখুন </string>
+    <string name="login_txt_hints">আপনার ফোন নম্বর টাইপ করুন অ্যাকাউন্টে লগইন করার জন্য</string>
+    <string name="txt_login_hint">ইতিমধ্যে একাউন্ট আছে?</string>
+    <string name="btn_account_create">Apply for Telecash Account</string>
+    <string name="txt_bill">Bill</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_phone_num_hint">ফোন নম্বর</string>
+    <string name="txt_pin_hint">পিন নম্বর</string>
+    <string name="txt_forget_pin">পিন পুনরুদ্ধার করুন</string>
+</resources>

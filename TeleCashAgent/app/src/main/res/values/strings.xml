@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TeleCashAgent</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="description_here">Description Here</string>
+    <string name="image_content_description">Image Content Description</string>
+
+    <string name="choose_language">Choose a language</string>
+    <string name="reg_txt_hints">Please type your Phone Number \n to login to your account</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="txt_bangla">বাংলা</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="txt_english">English</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_login">Login</string>
+    <string name="login_txt_hints">Please type your phone number and password\n to login to your Telecash account</string>
+    <string name="txt_phone_num_hint">Phone number</string>
+    <string name="txt_forget_pin">Forget pin</string>
+    <string name="txt_pin_hint">Pin No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
